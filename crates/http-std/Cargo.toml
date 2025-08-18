@@ -2,15 +2,15 @@
 name = "http-std"
 version = "0.1.0"
 edition = "2021"
-homepage.workspace = true
-repository.workspace = true
-license-file.workspace = true
+homepage = "https://github.com/TBD54566975/web5-rs"
+repository = "https://github.com/TBD54566975/web5-rs.git"
+license-file = "../../LICENSE"
 
 [dependencies]
 async-trait = "0.1.83"
-serde = { workspace = true }
-lazy_static = { workspace = true }
-thiserror = { workspace = true }
+serde = { version = "1.0.193", features = ["derive"] }
+lazy_static = "1.5.0"
+thiserror = "1.0.50"
 url = "2.5.0"
 
 [target.'cfg(not(target_family = "wasm"))'.dependencies]
