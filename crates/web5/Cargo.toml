@@ -17,7 +17,7 @@ jsonschema = { version = "0.18.0", default-features = false, features = [
   "draft201909",
   "draft202012",
 ] }
-k256 = { version = "0.12.0", features = ["ecdsa", "jwk"] }
+k256 = { version = "0.13.0", features = ["ecdsa", "jwk"] }
 tokio = "1.38.0"
 rand = { workspace = true }
 regex = "1.10.4"
