@@ -1,6 +1,6 @@
 [package]
 name = "web5_wasm"
-version = "0.12.3-alpha.1"
+version = "0.12.3-alpha.2"
 edition = "2021"
 homepage.workspace = true
 repository.workspace = true
